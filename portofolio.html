@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: rgb(29, 31, 32);
+            color: white;
+            padding: 10px;
+        }
+        .container {
+            margin-bottom: 100px; 
+            display: flex; 
+            justify-content: space-evenly; 
+            align-items: center; 
+            gap: 20px;
+        }
+        .text-container {
+            max-width: 500px; 
+        }
+        h1 {
+            margin: 0; 
+            margin-top: 0px; 
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        img {
+            border: 5px solid rgb(146, 140, 140);
+            max-width: 100%; 
+            height: auto; 
+        }
+
+        
+        .right-image {
+            max-width: 750px;
+            height: auto;
+            margin-left: 50px;
+        }
+
+        .cvbutton {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+            padding: 10px;
+        }
+
+        button {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="hengker.jpg" width="800" height="500">
+        <div class="text-container">
+            <h1>Coding</h1>
+            <p>I specialize in creating efficient, scalable code for web and mobile applications. With experience in multiple programming languages including Python, JavaScript, and SQL, I excel at problem-solving and building intuitive user experiences. My projects range from data-driven applications to network management systems, all designed to optimize performance and streamline processes. Check out my portfolio for a showcase of my work, where I turn complex problems into elegant solutions.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-container">
+            <h1>Volunteer Experience</h1>
+            <p>As a passionate volunteer, I have contributed to various community projects that aim to create lasting positive change. My experience spans working with diverse teams in areas such as youth development, environmental conservation, and educational outreach. Through these opportunities, I've honed my leadership, communication, and problem-solving skills while making meaningful contributions to society. Volunteering has not only allowed me to give back but has also deepened my understanding of empathy and teamwork.</p>
+        </div>
+        <img src="voluenteer.jpg" class="right-image" width="900" height="700">
+    </div>
+
+    <div class="cvbutton">
+        <button onclick="window.location.href='index.html'">Click here to see my CV</button>
+      </div>
+</body>
+</html>
